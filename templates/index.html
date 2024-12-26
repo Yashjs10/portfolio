@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Awasthi | Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="nav-logo">
+                <h1>Portfolio</h1>
+            </div>
+            <nav>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <img src="{{ url_for('static', filename='images/profile.jpg') }}" alt="Yash Awasthi" class="profile-pic">
+            <h1>Hi, I'm Yash Awasthi</h1>
+            <p>Exploring Data | Learning Algorithms | Exploring MERN Stack | Well-versed in Python</p>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>👋 Hi, I’m Yash, a 2nd-year AI - ML student with a strong foundation in data structures and algorithms (DSA) with a passion for machine learning. I am adept at using Python, continuously expanding my coding skills to build intelligent solutions. I’m also familiar with databases, enabling me to manage and analyze data effectively. Driven by curiosity and innovation, I’m eager to explore the limitless possibilities of AI to create impactful, data-driven solutions. As I keep unlocking my skills, I will keep updating my profile description accordingly.</p>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill-list">
+                <div class="skill">
+                    <img src="{{ url_for('static', filename='images/python.png') }}" alt="Python">
+                    Python
+                </div>
+                <div class="skill">
+                    <img src="{{ url_for('static', filename='images/mongo.png') }}" alt="Databases">
+                    mongoDB
+                </div>
+                <div class="skill">
+                    <img src="{{ url_for('static', filename='images/ex.png') }}" alt="express">
+                    express
+                </div>
+                <div class="skill">
+                    <img src="{{ url_for('static', filename='images/react.png') }}" alt="react">
+                    React
+                </div>
+                <div class="skill">
+                    <img src="{{ url_for('static', filename='images/node.png') }}" alt="node">
+                    Node
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <p>Currently working on <strong>ChintanGPT</strong> ,Using OpenAI's language model to process and generate dynamic, AI-driven responses to user input, providing an engaging conversational experience in ChintanGPT.</p>
+            <p>For more details, visit the project: <a href="https://github.com/Yashjs10/Chintan" target="_blank">ChintanGPT </a></p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out for collaborations or project discussions.</p>
+            <p>Email: yashawasthi854@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Yash Awasthi | Portfolio</p>
+    </footer>
+</body>
+</html>
